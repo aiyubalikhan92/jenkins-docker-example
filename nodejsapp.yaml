@@ -18,8 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        #image: "devopshint/nodejsapp-1.0:latest"
-         image: "aiyub/nodejsapp-1.0:latest"
+        image: "aiyub/nodejsapp-1.0:latest"
         ports:
           - containerPort: 3000
 ---
